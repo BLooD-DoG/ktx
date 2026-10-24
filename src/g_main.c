@@ -691,6 +691,7 @@ static qbool G_InitExtensions(void)
 		{"SetLastRuntime",		G_SETLASTRUNTIME},
 		{"sprayclear",			G_SPRAYCLEAR},
 		{"sprayclearall",		G_SPRAYCLEARALL},
+		{"ClientReliableCheckBlock", G_CLIENTRELIABLECHECKBLOCK},
 	};
 	int i;
 	for (i = 0; i < sizeof(exttraps)/sizeof(exttraps[0]); i++)

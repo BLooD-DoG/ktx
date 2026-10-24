@@ -123,3 +123,5 @@ equ		trap_GetExtFieldPtr    -268
 equ		trap_SetLastRuntime    -269
 equ		trap_SprayClear        -270
 equ		trap_SprayClearAll     -271
+
+equ		trap_ClientReliableCheckBlock -273
