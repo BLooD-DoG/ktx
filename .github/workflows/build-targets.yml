@@ -44,7 +44,7 @@ jobs:
             os: windows
           - target: qvm
             arch: qvm
-            base-image: ubuntu-latest
+            base-image: ubuntu-24.04
             ext: ".qvm"
             os: qvm
 
